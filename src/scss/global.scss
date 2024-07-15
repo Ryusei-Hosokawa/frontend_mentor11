@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// ベースのスタイル指定 ここから //
+@use "variables" as variables;
+@use "reset" as reset;
+@forward "fonts" as fonts-*;
+
+html {
+    width: 100vw;
+    height: 100dvh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: variables.$pageBaseColor;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    border: none;
+}
+// ベースのスタイル指定 ここまで //

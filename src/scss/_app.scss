@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@use "variables" as variables;
+@use "functions" as functions;
+@use "button" as button;
+
+.card {
+    background: variables.$cardBgColor;
+    border-radius: 12px;
+    padding: 40px 45px;
+    font-family: "interVariableFontSlnt", serif;
+    color: variables.$cardTextDefaultColor;
+    font-weight: 400;
+    text-align: center;
+    transform: skew(-30deg, 15deg);
+    box-shadow: functions.generateBoxShadow(rgb(14, 14, 14), rgb(255, 255, 255), 700);
+
+    &__user {
+        &--img {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 24px;
+            box-shadow: functions.generateBoxShadow(rgb(14, 14, 14), rgb(65, 65, 65), 700);
+        }
+        &--name {
+            font-size: 28px;
+            font-weight: 500;
+            margin: 0 0 15px;
+        }
+        &--residence {
+            font-size: 16px;
+            font-weight: 700;
+            color: variables.$cardResidenceColor;
+            margin: 0 0 35px;
+        }
+        &--description {
+            font-size: 14px;
+            margin: 0 0 40px;
+        }
+        &--button-warp {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+        @include button.button();
+    }
+}

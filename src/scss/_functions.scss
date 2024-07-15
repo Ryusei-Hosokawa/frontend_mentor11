@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// 関数定義 ここから //
+// box-shadowを生成する関数
+@function generateBoxShadow($shadow-color, $highlight-color, $shadow-count) {
+    $shadows: ();
+
+    @for $i from 1 through $shadow-count {
+        $x: $i * 0.01px;
+        $y: $i * 0.01px + 0.01px;
+        $shadows: append($shadows, #{$x} #{$y} 0 0 $shadow-color, comma);
+    }
+
+    @return $shadows, 0 0 100px 0 $highlight-color;
+}
+// 関数定義 ここまで //

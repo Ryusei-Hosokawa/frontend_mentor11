@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@use "variables" as variables;
+@use "functions" as functions;
+
+// カードのボタンコンポーネントのスタイル ここから //
+@mixin button() {
+    &--button {
+        width: 100%;
+        max-width: 304px;
+        height: 45px;
+        background: variables.$cardButtonColor;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 700;
+        color: darken($color: #a9a8a8, $amount: 1);
+        cursor: pointer;
+        transition: all 0.5s ease;
+        box-shadow: functions.generateBoxShadow(rgb(21, 21, 21), rgb(30, 29, 29), 700);
+
+        &:hover {
+            box-shadow: 0 0 0 0 rgb(0, 0, 0);
+            text-shadow: 0px 0px 10px rgb(230, 230, 230);
+            color: variables.$cardTextDefaultColor;
+        }
+    }
+}
+
+// カードのボタンコンポーネントのスタイル ここまで //
