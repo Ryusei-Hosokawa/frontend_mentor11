@@ -1,0 +1,32 @@
+$ vite
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  VITE v5.4.8  ready in 222 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+ ERROR  11:07:42 PM [vite] Internal server error: Failed to resolve import "./main.css" from "src/main.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/main.tsx:4:7
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import App from "./App.tsx";
+  5  |  import "./main.css";
+     |          ^
+  6  |  import "./reset.css";
+  7  |  ReactDOM.createRoot(document.getElementById("root")).render(
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+
+
+ ERROR  11:07:42 PM [vite] Pre-transform error: Failed to resolve import "./main.css" from "src/main.tsx". Does the file exist?
+
+11:08:29 PM [vite] page reload src/main.css
+11:08:37 PM [vite] hmr update /src/main.css
