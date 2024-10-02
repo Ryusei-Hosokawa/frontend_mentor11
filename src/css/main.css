@@ -1,1 +1,5 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'Outfit';
+    src: url('/src/assets/fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+}

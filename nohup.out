@@ -30,3 +30,198 @@ $ vite
 
 11:08:29 PM [vite] page reload src/main.css
 11:08:37 PM [vite] hmr update /src/main.css
+11:10:34 PM [vite] vite.config.ts changed, restarting server...
+
+ WARN  (!) "base" option should start with a slash.
+
+Re-optimizing dependencies because vite config has changed
+11:10:34 PM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/frontend_mentor12
+  ➜  Network: use --host to expose
+11:10:37 PM [vite] vite.config.ts changed, restarting server...
+
+ WARN  (!) "base" option should start with a slash.
+
+11:10:37 PM [vite] server restarted.
+
+  ➜  Local:   http://localhost:5173/frontend_mentor11
+  ➜  Network: use --host to expose
+
+ ERROR  11:13:37 PM [vite] Internal server error: Failed to resolve import "./main.css" from "src/main.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/main.tsx:4:7
+  3  |  import ReactDOM from "react-dom/client";
+  4  |  import App from "./App.tsx";
+  5  |  import "./main.css";
+     |          ^
+  6  |  import "./reset.css";
+  7  |  ReactDOM.createRoot(document.getElementById("root")).render(
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+
+
+ ERROR  11:13:37 PM [vite] Pre-transform error: Failed to resolve import "./main.css" from "src/main.tsx". Does the file exist?
+
+
+ ERROR  11:13:37 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+11:14:03 PM [vite] page reload src/main.tsx
+
+ ERROR  11:14:03 PM [vite] Pre-transform error: Failed to resolve import "./reset.css" from "src/main.tsx". Does the file exist?
+
+
+ ERROR  11:14:03 PM [vite] Internal server error: Failed to resolve import "./reset.css" from "src/main.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/main.tsx:5:7
+  4  |  import App from "./App.tsx";
+  5  |  import "./css/main.css";
+  6  |  import "./reset.css";
+     |          ^
+  7  |  ReactDOM.createRoot(document.getElementById("root")).render(
+  8  |    /* @__PURE__ */ jsxDEV(React.StrictMode, { children: /* @__PURE__ */ jsxDEV(App, {}, void 0, false, {
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+
+
+ ERROR  11:14:03 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:14:03 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+11:14:12 PM [vite] page reload src/main.tsx
+
+ ERROR  11:14:12 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:14:12 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:14:12 PM [vite] Internal server error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/App.tsx:2:7
+  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import "./App.css";
+     |          ^
+  18 |  import RectangleImage from "./assets/images/Rectangle.png";
+  19 |  import CombinedImage from "./assets/images/Combined.png";
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+
+11:14:33 PM [vite] page reload src/main.tsx
+
+ ERROR  11:14:33 PM [vite] Pre-transform error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:14:33 PM [vite] Internal server error: Failed to resolve import "./App.css" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/App.tsx:2:7
+  15 |    window.$RefreshSig$ = RefreshRuntime.createSignatureFunctionForTransform;
+  16 |  }
+  17 |  import "./App.css";
+     |          ^
+  18 |  import RectangleImage from "./assets/images/Rectangle.png";
+  19 |  import CombinedImage from "./assets/images/Combined.png";
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+
+11:14:46 PM [vite] page reload src/App.tsx
+
+ ERROR  11:14:46 PM [vite] Pre-transform error: Failed to resolve import "./assets/images/Rectangle.png" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:14:46 PM [vite] Internal server error: Failed to resolve import "./assets/images/Rectangle.png" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/App.tsx:5:27
+  16 |  }
+  17 |  import "./css/App.css";
+  18 |  import RectangleImage from "./assets/images/Rectangle.png";
+     |                              ^
+  19 |  import CombinedImage from "./assets/images/Combined.png";
+  20 |  import ShapeImage from "./assets/images/Shape.png";
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+
+11:15:29 PM [vite] page reload src/css/fonts/.DS_Store
+
+ ERROR  11:15:29 PM [vite] Pre-transform error: Failed to resolve import "./assets/images/Rectangle.png" from "src/App.tsx". Does the file exist?
+
+
+ ERROR  11:15:29 PM [vite] Internal server error: Failed to resolve import "./assets/images/Rectangle.png" from "src/App.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/ryuseihosokawa/frontend_mentor11/src/App.tsx:5:27
+  16 |  }
+  17 |  import "./css/App.css";
+  18 |  import RectangleImage from "./assets/images/Rectangle.png";
+     |                              ^
+  19 |  import CombinedImage from "./assets/images/Combined.png";
+  20 |  import ShapeImage from "./assets/images/Shape.png";
+      at TransformPluginContext._formatError (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49193:41)
+      at TransformPluginContext.error (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49188:16)
+      at normalizeUrl (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:63984:23)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64116:39
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:64043:7)
+      at async PluginContainer.transform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:49034:18)
+      at async loadAndTransform (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:51867:27)
+      at async viteTransformMiddleware (file:///Users/ryuseihosokawa/frontend_mentor11/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:61824:24)
+
+11:15:35 PM [vite] page reload src/assets/fonts/.DS_Store
+11:16:44 PM [vite] hmr update /src/css/App.css
+11:17:31 PM [vite] hmr update /src/css/main.css
+11:21:10 PM [vite] page reload src/main.tsx
+11:21:19 PM [vite] hmr update /src/App.tsx
+11:21:26 PM [vite] page reload src/main.tsx
+11:22:31 PM [vite] hmr update /src/css/App.css
+11:22:56 PM [vite] hmr update /src/css/App.css
+11:23:49 PM [vite] hmr update /src/css/App.css
+11:24:05 PM [vite] hmr update /src/css/App.css
+11:24:27 PM [vite] hmr update /src/css/main.css
+11:24:32 PM [vite] hmr update /src/css/main.css
+11:24:36 PM [vite] hmr update /src/css/main.css
+11:24:41 PM [vite] hmr update /src/css/main.css
+11:24:47 PM [vite] hmr update /src/css/main.css
+11:24:59 PM [vite] hmr update /src/css/main.css
+11:25:03 PM [vite] hmr update /src/css/main.css
+11:25:03 PM [vite] hmr update /src/css/main.css

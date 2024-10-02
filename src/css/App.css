@@ -1,1 +1,128 @@
 @charset "utf-8";
+.page-background {
+    width: 100vw;
+    height: 100vh;
+    background: #0d192c;
+    display: grid;
+    place-items: center;
+}
+.card__object {
+    width: 100%;
+    max-width: 350px;
+    padding: 24px 24px 32px;
+    background: #15263f;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    font-family: "Outfit";
+}
+.card__img--cover {
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.card__img--cover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 248, 0.5);
+    background-image: url(../assets/images/Shape1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 44px;
+    opacity: 0;
+    transition: opacity 0.25s;
+    cursor: pointer;
+}
+.card__img--cover:hover::before {
+    opacity: 1;
+}
+.card__text--main {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.card__text--sub {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #8BACD9;
+    margin-bottom: 24px;
+}
+.card__data--cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #2E405A;
+    margin-bottom: 16px;
+}
+.card__ethereum--cover {
+    display: flex;
+    align-items: center;
+    column-gap: 6.48px;
+}
+.card__ethereum--img {
+    width: 11px;
+}
+.card__ethereum--data {
+    font-size: 15px;
+    font-weight: 500;
+    color: #00FFF8;
+}
+.card__ethereum--points {
+    margin-right: 5px;
+}
+.card__days-left--cover {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.card__days-left--icon {
+    width: 15px;
+}
+.card__days-left--text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8BACD9;
+}
+.creator__contents {
+    display: flex;
+    align-items: center;
+}
+.creator__contents--icon {
+    position: relative;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    margin-right: 16px;
+}
+.creator__contents--icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -42%);
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.creator__contents--text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #8BACD9;
+    display: flex;
+    column-gap: 5px;
+}
+.creator__contents--text h3 {
+    color: #fff;
+}
